@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+h1 {
+  background: silver;
+  margin: 0;
+  padding: 8px;
+  text-align: center;
+}
+.sign {
+  background: black;
+  color: white;
+  margin: 0;
+  padding: 8px;
+}
+button {
+  background: green;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  transition: background 0.5s;
+  height: 40px;
+  width: 100px;
+}
+button:hover {
+  background: blue;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: auto;
+}
+.overlay {
+  width: 7%;
+  height: 120px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+img {
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.3s, opacity 0.3s;
+  width: 100%;
+}
+img:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+.progress {
+  height: 2px;
+  background: blue;
+  width: 100%;
+}
+.selectImage {
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.title {
+  text-align: center;
+}
+.none {
+  visibility: hidden;
+}
